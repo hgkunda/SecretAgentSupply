@@ -1,0 +1,19 @@
+html {
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  font-family: Helvetica;
+}
+
+main {
+  display: block;
+  width: 960px;
+}
+
+.navigation {
+  background-color: firebrick;
+}
+
+.navigation li {
+  display: inline;
+}
