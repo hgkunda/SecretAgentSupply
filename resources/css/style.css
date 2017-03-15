@@ -5,15 +5,70 @@ html {
   font-family: Helvetica;
 }
 
-main {
+.container {
   display: block;
   width: 960px;
 }
 
-.navigation {
+.header {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
   background-color: firebrick;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 .navigation li {
   display: inline;
+}
+
+.banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+  margin: auto;
+  min-height: 25rem;
+}
+
+.bannerText {
+  background-color: black;
+  display: inline-block;
+  margin-top: 9rem;
+  padding: 2rem 10rem;
+  font-weight: bold;
+}
+
+.bannerText h4 {
+  font-size: 1rem;
+  padding-bottom: .25rem;
+}
+
+.bannerText h1 {
+  font-size: 2rem;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product img {
+  display: flex;
+  padding: 2rem 9rem;
+  border: 4px solid black;
+  background-color: white;
+  justify-content: space-between;
 }
