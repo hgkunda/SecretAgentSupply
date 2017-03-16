@@ -19,6 +19,7 @@ html {
   background-color: black;
   width: 100%;
   padding: .66rem;
+  margin: 0 auto;
 }
 
 #logo {
@@ -38,21 +39,31 @@ html {
   margin: auto;
   min-height: 25rem;
   position: relative;
+  display: flex;
+  align-items: center;
+  /*margin: 0 auto;*/
 }
 
-.banner div {
+/*.banner div {
   position: relative;
-}
+}*/
 
 .bannerText {
   background-color: black;
-  display: inline-flex;
-  margin-top: 9rem;
-  padding: 2rem 9rem;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  /*padding: 2rem 9rem;*/
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
   font-weight: bold;
   position: relative;
   color: white;
   max-width: 20rem;
+  margin: 0 auto;
 }
 
 .bannerText h4 {
@@ -189,4 +200,10 @@ nav {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: black;
+  /*margin: 0 auto;*/
+}
+
+.title.footer {
+  text-align: left;
+  margin: 0 auto;
 }
