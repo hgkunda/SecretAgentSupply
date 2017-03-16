@@ -40,6 +40,11 @@ nav {
   background-size: cover;
   margin: auto;
   min-height: 25rem;
+  position: relative;
+}
+
+.banner div {
+  position: relative;
 }
 
 .bannerText {
@@ -48,6 +53,7 @@ nav {
   margin-top: 9rem;
   padding: 2rem 10rem;
   font-weight: bold;
+  position: relative;
 }
 
 .bannerText h4 {
@@ -59,16 +65,41 @@ nav {
   font-size: 2rem;
 }
 
-.product {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+div {
+  display: block;
 }
 
-.product img {
+.products {
   display: flex;
-  padding: 2rem 9rem;
+  /*align-items: center;*/
+  /*align-content: center;*/
+  justify-content: center;
+  align-content: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.product {
+  display: flex;
+  /*max-width: 30%;*/
+  /*padding: 2rem 9rem;*/
+  justify-content: center;
+  align-content: center;
+}
+
+.product-image {
+  display: flex;
+  padding: 2rem 0;
   border: 4px solid black;
   background-color: white;
-  justify-content: space-between;
+  align-items: center;
+  /*justify-content: center;*/
+  max-width: 30%;
+}
+
+.product-image img {
+  max-width: 8em;
+  display: flex;
+  padding: 2rem 0;
+  align-self: center;
 }
