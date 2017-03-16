@@ -1,7 +1,7 @@
 html {
   font-size: 18px;
-  color: white;
-  background-color: black;
+  /*color: white;
+  background-color: black;*/
   font-family: Helvetica;
 }
 
@@ -14,6 +14,14 @@ html {
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
+  align-content: flex-start;
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+
+#logo {
+  display: flex;
 }
 
 nav {
@@ -33,6 +41,7 @@ nav {
 
 .navigation li {
   display: inline;
+  color: white;
 }
 
 .banner {
@@ -54,6 +63,7 @@ nav {
   padding: 2rem 10rem;
   font-weight: bold;
   position: relative;
+  color: white;
 }
 
 .bannerText h4 {
@@ -102,4 +112,19 @@ div {
   display: flex;
   padding: 2rem 0;
   align-self: center;
+}
+
+.business-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.business-info span {
+  display: block;
+}
+
+.title {
+  color: white;
+  background-color: black;
+  display: block;
 }
